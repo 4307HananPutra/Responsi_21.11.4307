@@ -53,9 +53,7 @@ const showingNavigationDropdown = ref(false);
   <Head title="Welcome" />
   <nav class="bg-white border-gray-200">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between lg:mx-32 p-4">
-      <a href="https://irvanshandika.my.id" class="flex items-center">
-        <img src="../../Components/images/logo.png" class="h-8 mr-3" alt="Irvan" />
-      </a>
+      <h1>Hanan</h1>
       <button
         @click="showingNavigationDropdown = !showingNavigationDropdown"
         id="toggleNavbar"
@@ -92,7 +90,7 @@ const showingNavigationDropdown = ref(false);
                 Dashboard
               </Link>
               <template v-else>
-                <Link :href="route('login')" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-4 py-2 text-center mr-3 md:mr-0"> Log in</Link>
+                <Link :href="route('login')" type="button" class="text-white bg-red-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-4 py-2 text-center mr-3 md:mr-0"> Log in</Link>
               </template>
             </div>
           </li>
@@ -111,7 +109,7 @@ const showingNavigationDropdown = ref(false);
             </p>
           </div>
           <div class="grid grid-cols-1 gap-2 md:flex md:justify-start">
-            <button type="button" class="bg-blue-500 hover:bg-blue-400 text-black rounded-lg px-4 py-2 mt-7">Primary</button>
+            <button type="button" class="bg-red-500 hover:bg-blue-400 text-black rounded-lg px-4 py-2 mt-7">Primary</button>
             <button type="button" class="bg-gray-300 hover:bg-gray-200 text-black rounded-lg px-4 py-2 mt-7">Default</button>
           </div>
         </div>
@@ -131,8 +129,7 @@ const showingNavigationDropdown = ref(false);
             <Logo />
           </div>
           <div className="text-sm text-gray-600">
-            <img src="../../Components/images/logo.png" class="h-8 mr-3" alt=" Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap text-black uppercase">M. Irvan Shandika</span>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-black uppercase">Chelsea Hanan <br/>Eksa Putra</span>
           </div>
         </div>
         <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
